@@ -24,3 +24,4 @@ set "newname=%newname:  =%"
 set "newname=%newname:mp4=.mp4%"
 set "newname=%newname: mp4=.mp4%"
 ren %1 "%newname%
+
