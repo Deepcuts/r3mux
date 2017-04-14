@@ -69,8 +69,8 @@ if %NumDup%==0 echo No duplicates found
 if Not %NumDup%==0 %CECHO% {red}Found %NumDup% duplicates{#}{\n}
 echo.
 echo.
-echo Begin validation...
-for %%F in ("%INPUT%\*.%IN-EXT%") do (title Validating %%~nF & set /p "=Validating > %%~nF.%IN-EXT%..." <nul & %MKVALIDATOR% --quiet --no-warn "%INPUT%\%%~nF.%IN-EXT%" 2> nul && (echo Success) || (%CECHO% {red}Error!{#}{\n} & set /a NumError+=1 & ren "%INPUT%\%%~nF.%IN-EXT%" "%%~nF.%IN-EXT%.BAD" & %CECHO% {red}mkvalidator.exe reported an error on file %%~nF.%IN-EXT%. Renamed to *.BAD{#}{\n}))
+echo Begin validation of Matroska file(s)...
+for %%F in ("%INPUT%\*.mkv") do (title Validating %%~nF & set /p "=Validating > %%~nF.mkv..." <nul & %MKVALIDATOR% --quiet --no-warn "%INPUT%\%%~nF.mkv" 2> nul && (echo Success) || (%CECHO% {red}Error!{#}{\n} & set /a NumError+=1 & ren "%INPUT%\%%~nF.mkv" "%%~nF.%IN-EXT%.BAD" & %CECHO% {red}mkvalidator.exe reported an error on file %%~nF.mkv. Renamed to *.BAD{#}{\n}))
 if %NumError%==0 echo No errors found
 if Not %NumError%==0 %CECHO% {red}Found %NumError% errors{#}{\n}
 echo.
