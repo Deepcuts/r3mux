@@ -12,10 +12,10 @@ Using an MP4 container with stereo AAC has the best chances of being direct play
 
 ### How to use it
 1. Download the zip file and extract the r3mux-master to your hard drive. You can rename it to whatever name you want.  
-2. Edit the file settings.ini inside Program subfolder. Defaults should work right out of the box.  
-3. Copy your MKV file(s) to the Jobs subfolder.  
-4. Inside Program subfolder execute/double click the remux-MKV-MP4.bat file
-5. If everything goes well, your remuxed MP4 file(s) will be available in the Completed subfolder.  
+2. Edit the file settings.ini inside **Program** subfolder. Defaults should work right out of the box.  
+3. Copy your MKV file(s) to the **Jobs** subfolder.  
+4. Inside Program subfolder execute/double click the **remux-MKV-MP4.bat** file
+5. If everything goes well, your remuxed MP4 file(s) will be available in the **Completed** subfolder.  
 
 ### 3rd party programs
 r3mux use 3rd party programs.
