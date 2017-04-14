@@ -23,7 +23,7 @@ It can set the language tag for MKV or MP4 files inside **INPUT** folder. Just c
 2. **clean.bat** can be used to batch strip out unwanted characters from files names inside **OUTPUT** folder. Edit the bat file to suit your needs.
 
 ### 3rd party programs
-r3mux use 3rd party programs.
+r3mux makes use of the folowing 3rd party programs:
 1. [ffmpeg](https://ffmpeg.zeranoe.com/builds)
 2. [mkvalidator.exe](https://www.matroska.org/downloads/mkvalidator.html)
 3. [cecho](https://www.codeproject.com/Articles/17033/Add-Colors-to-Batch-Files)
