@@ -3,36 +3,9 @@ r3mux is a simple batch file that will scan an INPUT folder and remux all Matros
 
 The reason I wrote it is because some of my personal devices have problems direct playing/streaming Matroska container type files from my Plex server and I wanted to simplify the process of remuxing my MKV's.
 
-
-
 ### What it does
 
-The script will scan a specific folder for MKV files, will validate them using [mkvalidator.exe](https://www.matroska.org/downloads/mkvalidator.html), copy the video stream to the MP4 container and encode the audio stream to stereo AAC.
+The script will scan a specific folder for MKV files, will validate them using [mkvalidator.exe](https://www.matroska.org/downloads/mkvalidator.html), copy the video stream to the MP4 container and encode the audio stream to stereo AAC. Various settings can be tweaked inside settings.ini file, like Audio language tag and Audio bitrate.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Deepcuts/r3mux/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Using an MP4 container with stereo AAC has the best chances of being direct played/streamed by a media server such as [Plex Media Server](https://plex.tv) and not forcing your server to transcode the media for your various clients.
