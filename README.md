@@ -9,3 +9,5 @@ The script will scan a specific folder for MKV files, will validate them using [
 
 
 Using an MP4 container with stereo AAC has the best chances of being direct played/streamed by a media server such as [Plex Media Server](https://plex.tv) and not forcing your server to transcode the media for your various clients.
+
+### How to use it
