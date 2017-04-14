@@ -25,7 +25,7 @@ It can set the language tag for MKV or MP4 files inside **INPUT** folder. Just c
 ### 3rd party programs
 r3mux makes use of the folowing 3rd party programs:
 1. [ffmpeg](https://ffmpeg.zeranoe.com/builds)
-2. [mkvalidator.exe](https://www.matroska.org/downloads/mkvalidator.html)
+2. [mkvalidator](https://www.matroska.org/downloads/mkvalidator.html)
 3. [cecho](https://www.codeproject.com/Articles/17033/Add-Colors-to-Batch-Files)  
 All executables must be present in Program\tools subfolder for r3mux to work.
 
