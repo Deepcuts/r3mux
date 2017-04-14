@@ -18,8 +18,9 @@ Using an MP4 container with stereo AAC has the best chances of being direct play
 5. If everything goes well, your remuxed MP4 file(s) will be available in the **Completed** subfolder.  
 
 ### Other uses
-1. set-LNG.bat can be used to batch set the audio language tag.  
-It can set the language tag for MKV or MP4 files inside INPUT folder. Just change A-LNG setting in settings.ini to match the file type.
+1. **set-LNG.bat** can be used to batch set the audio language tag of all matching files inside **INPUT** folder.  
+It can set the language tag for MKV or MP4 files inside **INPUT** folder. Just change A-LNG setting in settings.ini to match the file type.
+2. **clean.bat** can be used to batch strip out unwanted characters from files names inside **OUTPUT** folder. Edit the bat file to suit your needs.
 
 ### 3rd party programs
 r3mux use 3rd party programs.
