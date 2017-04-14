@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to r3mux
+r3mux is a simple batch file that will scan an INPUT folder and remux all Matroska files to MPEG-4 files.
+The reason I wrote it is because some of my personal devices have problems direct playing/streaming Matroska container type files from my Plex server and I wanted to simplify the process of remuxing my MKV's.
 
-You can use the [editor on GitHub](https://github.com/Deepcuts/r3mux/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
