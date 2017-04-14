@@ -5,9 +5,9 @@ The reason I wrote it is because some of my personal devices have problems direc
 
 
 
-### Markdown
+### What it does
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+The script will scan a specific folder for MKV files, will validate them using mkvalidator.exe
 
 ```markdown
 Syntax highlighted code block
