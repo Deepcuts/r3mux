@@ -7,7 +7,7 @@ The reason I wrote it is because some of my personal devices have problems direc
 
 ### What it does
 
-The script will scan a specific folder for MKV files, will validate them using mkvalidator.exe
+The script will scan a specific folder for MKV files, will validate them using [mkvalidator.exe](https://www.matroska.org/downloads/mkvalidator.html), copy the video stream to the MP4 container and encode the audio stream to stereo AAC.
 
 ```markdown
 Syntax highlighted code block
