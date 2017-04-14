@@ -25,5 +25,5 @@ r3mux use 3rd party programs.
 
 ### FAQ
 Q: My MP4 file is still being transcoded by my Plex Media Server  
-A: Make sure you setup Burn Subtitles to Automatic (if using subtitles) and Remote Quality to original in Plex Player settings if you are using Plex Web.    
-Make sure you set the Remote Quality to maximum available if you are using a Smart TV.  
+A: Make sure you setup **Burn Subtitles** to *Automatic* (if using subtitles) and **Remote Quality** to *Original* in Plex Player settings if you are using Plex Web.    
+Make sure you set the **Remote Quality** to maximum available if you are using a Smart TV.   
