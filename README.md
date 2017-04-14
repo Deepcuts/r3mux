@@ -11,3 +11,8 @@ The script will scan a specific folder for MKV files, will validate them using [
 Using an MP4 container with stereo AAC has the best chances of being direct played/streamed by a media server such as [Plex Media Server](https://plex.tv) and not forcing your server to transcode the media for your various clients.
 
 ### How to use it
+Download the zip file and extract the r3mux-master to your hard drive.  
+Edit the file settings.ini inside Program subfolder. Defaults should work right out of the box.  
+Copy your MKV file(s) to the Jobs subfolder.  
+Inside Program subfolder execute/double click the remux-MKV-MP4.bat file
+If everything goes well, your remuxed MP4 file(s) will be available in the Completed subfolder.  
